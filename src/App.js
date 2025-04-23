@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <h1>CRUD OPERATIONS</h1>
-      <Router>
+      <Router basename='/CRUD-Demo-App'>
         <Routes>
           <Route path='/' element={<Home/>} /> 
           <Route path='/create' element={<Create/>} />
